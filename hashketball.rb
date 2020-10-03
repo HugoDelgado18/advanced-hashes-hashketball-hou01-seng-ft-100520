@@ -131,7 +131,7 @@ end
 #p game_hash[:home][:players][0][:player_name]
 
 
- def num_points_scored(player_name)
+
 
    def num_points_scored(player_name)
   game_hash.each do |location, team_data|
@@ -146,4 +146,4 @@ end
 
 
 
-end
+
