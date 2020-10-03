@@ -126,7 +126,7 @@ def game_hash
   }
 end
 
-p game_hash[:home][:players]
+p game_hash[:home][:players][0]
 
 
  def num_points_scored
