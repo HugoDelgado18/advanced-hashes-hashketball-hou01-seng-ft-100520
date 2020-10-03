@@ -137,6 +137,8 @@ end
      value.each do | inner_keys, inner_values|
        binding.pry
     end
+    points_scored
+    pry
   end
 
 
