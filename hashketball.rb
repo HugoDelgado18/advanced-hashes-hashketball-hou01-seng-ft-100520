@@ -129,17 +129,3 @@ end
 # Write code here
 
 p game_hash[:away][:colors]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
