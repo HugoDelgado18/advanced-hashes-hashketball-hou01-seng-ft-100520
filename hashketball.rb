@@ -132,7 +132,7 @@ end
    game_hash.each_with_object({}) do |(key, value), points_scored|
      value.each do | inner_keys, inner_values|
     end
-  end   
+  end
 
 
 
