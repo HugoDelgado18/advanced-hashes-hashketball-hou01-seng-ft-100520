@@ -132,8 +132,10 @@ end
 
 
  def num_points_scored(player_name)
-binding.pry
-player_name[:points]
+   binding.pry
+  game_hash.each do | key, value|
+  end
+  player_name[:points]
 
 
 
