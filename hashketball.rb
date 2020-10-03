@@ -135,9 +135,10 @@ end
 
   game_hash.each do | key, value|
   end
+  binding.pry
   player_name[:points]
 
-binding.pry
+
 
 
 
