@@ -138,7 +138,7 @@ end
        binding.pry
     end
     points_scored
-    pry
+    binding.pry
   end
 
 
