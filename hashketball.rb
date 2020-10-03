@@ -135,7 +135,7 @@ end
 
    game_hash.each_with_object({}) do |(key, value), points_scored|
      value.each do | inner_keys, inner_values|
-       #binding.pry
+       binding.pry
     end
     points_scored
     binding.pry
