@@ -126,7 +126,9 @@ def game_hash
   }
 end
 
-# Write code here
+game_hash[:home][:players][0]
+
+
  def num_points_scored
 
    game_hash.each_with_object({}) do |(key, value), points_scored|
