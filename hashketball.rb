@@ -135,7 +135,7 @@ end
 
 
   player_insight = game_hash[:home][:players].merge(game_hash[:away][:players])
-
+  player_insight[player_name][:points]
 
 
 end
