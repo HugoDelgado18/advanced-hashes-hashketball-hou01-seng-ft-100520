@@ -128,4 +128,18 @@ end
 
 # Write code here
 
-game_hash[:away][:colors]
+p game_hash[:away][:colors]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
