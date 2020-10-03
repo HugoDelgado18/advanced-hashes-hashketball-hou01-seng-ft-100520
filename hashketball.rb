@@ -137,7 +137,7 @@ end
   end
   player_name[:points]
 
-
+binding.pry
 
 
 
