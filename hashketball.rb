@@ -144,7 +144,6 @@ end
   end
 end
 
-#  player[player_name][:points]
 
 
 end
