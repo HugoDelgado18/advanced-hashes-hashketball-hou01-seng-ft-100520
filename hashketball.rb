@@ -134,7 +134,7 @@ end
  def num_points_scored(player_name)
 
 
-  player_insight = game_hash[:home][:players].merge(game_hash[:away][:players])
+  player = game_hash[:home][:players].merge(game_hash[:away][:players])
   player_insight[player_name][:points]
 
 
