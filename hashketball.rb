@@ -133,11 +133,8 @@ end
 
  def num_points_scored(player_name)
 
-  game_hash.each do | area, team_data|
-    binding.pry
-  end
-  binding.pry
-  player_name[:points]
+  game_hash[:home][:players].merge(game_hash[:away][:players])
+  pry
 
 
 
