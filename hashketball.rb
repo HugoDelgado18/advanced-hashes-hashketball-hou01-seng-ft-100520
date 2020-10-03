@@ -135,6 +135,7 @@ p game_hash[:home][:players][0][:player_name]
 
    game_hash.each_with_object({}) do |(key, value), points_scored|
      value.each do | inner_keys, inner_values|
+       binding.pry
     end
   end
 
