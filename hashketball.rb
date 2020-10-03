@@ -135,11 +135,10 @@ end
    binding.pry
    game_hash.each do |key, team_data|
      binding.pry
-   end
    team_data.each do |inner_key, data|
   end
    binding.pry
-
+ end
 
 
 
