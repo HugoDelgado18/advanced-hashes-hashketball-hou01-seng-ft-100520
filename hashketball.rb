@@ -166,6 +166,14 @@ def team_colors (team_name)
 end
 
 
-def team_names ()
+def team_names (team_name)
+
+  case team_name
+  when game_hash[:home]
+    game_hash[:home][:team_name]
+  when game_hash[:away]
+    game_hash[:away][:team_name]
+  end
+    
 
 end
