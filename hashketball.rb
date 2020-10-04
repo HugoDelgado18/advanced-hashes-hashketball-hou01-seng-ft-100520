@@ -166,14 +166,14 @@ def team_colors (team_name)
 end
 
 
+
 def team_names (team_name)
-
-  case teams
-  when game_hash[:home]
-    game_hash[:home][:team_name]
-  when game_hash[:away]
-    game_hash[:away][:team_name]
-  end
-
-
+ 
+   game_hash.each do |location, team_data|
+	team_data[:team_name].each do |t_name|
+		if t_name[:team_name] == team_name
+		   return t_name[:team_name]
+		end
+	end
 end
+
