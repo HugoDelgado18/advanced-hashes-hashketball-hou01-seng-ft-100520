@@ -168,7 +168,7 @@ end
 
 
 def team_names (team_name)
- 
+
    game_hash.each do |location, team_data|
 	team_data[:team_name].each do |t_name|
 		if t_name[:team_name] == team_name
@@ -176,4 +176,3 @@ def team_names (team_name)
 		end
 	end
 end
-
