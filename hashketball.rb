@@ -167,7 +167,7 @@ end
 
 
 
-def team_names 
+def team_names
 
   case teams
   when game_hash[:home]
