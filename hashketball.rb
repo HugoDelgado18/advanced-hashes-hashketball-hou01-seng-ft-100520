@@ -174,6 +174,6 @@ def team_names (team_name)
   when game_hash[:away]
     game_hash[:away][:team_name]
   end
-    
+
 
 end
