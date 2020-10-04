@@ -167,7 +167,7 @@ end
 
 
 
-def team_names (team_name)
+def team_names (team)
 
    game_hash.each do |location, team_data|
 	team_data[:team_name].each do |t_name|
