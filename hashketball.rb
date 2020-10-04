@@ -166,7 +166,7 @@ def team_colors (team_name)
 end
 
 
-def team_names (teams)
+def team_namess
 
   case team_name
   when game_hash[:home]
