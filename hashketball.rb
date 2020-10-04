@@ -173,6 +173,8 @@ def team_names (team_name)
 	team_data[:team_name].each do |t_name|
 		if t_name[:team_name] == team_name
 		   return t_name[:team_name]
+    end
+
 		end
 	end
 end
